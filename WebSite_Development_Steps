@@ -1,0 +1,39 @@
+The Process Behind Building A Website
+--------------------------------------
+Define The Project:
+	Who is the website for
+	What the website for: define business and user goal for eg: Selling premium dog food
+	target Audience 
+
+
+Plan the Project: 
+	Website content: Copy text, image, videos etc generally provide by the client
+	In this section we can see each page needs in order to convey the content's message and in which order
+	Website Personality 
+
+
+Sketch In the project:
+	In this section we think about the component Get ideas out ofyour head sketch them with pen and paper or using software Figma and more
+
+
+Design and Build Website
+	design website with HTML and CSS ("designing in the browser)
+
+
+Test and Optimize
+	all the majore browser (chrome IE Firefox...)
+	actual mobile devices
+	all images optimize
+	LightHouse performance test in chrome DevTools
+	Search Engine Optimization
+
+
+Launch:
+	launch your website Hosting platform
+	free plan available    Netlify hostinger more 
+
+
+Maintain and Update
+	Content updated over time...
+	for this we need to install analytics software (eg google analytics or Fathom) to get statistics about website users. This may inform future changes in the site structure and content
+	A blog that is update regularly is a good way to keep users coming back and is also good for SEO
