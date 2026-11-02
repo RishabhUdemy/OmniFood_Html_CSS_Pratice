@@ -352,3 +352,48 @@ body {
   filter: brightness(0);
   opacity: 50%;
 }
+
+/***********************************/
+/***********MEAL SECTION************/
+/***********************************/
+
+.meal-section {
+  padding: 9.6rem 0;
+}
+
+.meal-heading {
+  display: block;
+  color: #cf711f;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.meal-heading-secondary {
+  color: #333;
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-bottom: 8.4rem;
+  line-height: 1.2;
+}
+
+.meal-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-title {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
