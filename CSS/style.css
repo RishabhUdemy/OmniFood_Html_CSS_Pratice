@@ -109,6 +109,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.center-text {
+  text-align: center;
+}
+
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -361,6 +365,12 @@ body {
   box-shadow: 0 2.4rem 4.8rem rgb(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.5s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgb(0, 0, 0, 0.065);
 }
 
 .meal-content {
@@ -473,4 +483,79 @@ strong {
   margin-top: 4.8rem;
   font-size: 1.6rem;
   text-align: center;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding: 0.2rem;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+/************************/
+/* TESTIMONIAL GALLERY */
+/************************/
+
+.testimonial-gallery {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonla-container {
+  padding: 9.6rem;
+}
+.testimonal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  /* column-gap: 8.4rem; without this it
+   look good */
+}
+
+.testimonal-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonal-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonal-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-items {
+  overflow: hidden;
+}
+.gallery-items img {
+  width: 100%;
+  display: block;
+  transition: all 0.4s;
+}
+
+.gallery-items img:hover {
+  transform: scale(1.1);
 }
