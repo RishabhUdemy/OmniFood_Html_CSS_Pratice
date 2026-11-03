@@ -359,7 +359,7 @@ body {
 
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgb(0, 0, 0, 0.075);
-  border-radius: 10px;
+  border-radius: 11px;
   overflow: hidden;
 }
 
@@ -389,11 +389,17 @@ body {
 }
 
 .meal-lists {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  font-size: 1.6rem;
+}
+
+.meal-list {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .meal-img {
@@ -408,13 +414,9 @@ body {
 }
 
 .meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
   color: #e67e22;
-}
-
-.meal-list {
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
 }
 
 .tag {
@@ -447,10 +449,6 @@ strong {
   background-color: #ffd43b;
 }
 
-.meal-list {
-  display: flex;
-  flex-direction: column;
-}
 .list {
   list-style: none;
   display: flex;
