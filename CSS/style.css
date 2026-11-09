@@ -115,6 +115,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5--template-column-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .center-text {
   text-align: center;
 }
