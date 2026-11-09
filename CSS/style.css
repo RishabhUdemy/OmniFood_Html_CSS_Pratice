@@ -751,9 +751,6 @@ strong {
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-
-  /* temprory */
-  height: 50rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
@@ -770,4 +767,85 @@ strong {
     url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #2e1907;
+}
+
+.cta-heading-secondary {
+  font-size: 4.2rem;
+  color: #333;
+  margin-bottom: 4.2rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-bottom: 4.8rem;
+  color: #2e1907;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  font-size: 1.8rem;
+  color: inherit;
+  padding: 1.2rem;
+  border: none;
+  font-family: inherit;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.1);
+  background-color: #fdf2e9;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta-form button {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.4rem 3.5rem;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  font-family: inherit;
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: self-end;
+}
+
+.cta-form button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  border-radius: 0.4rem;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+  border-radius: 0.4rem;
 }
