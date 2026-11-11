@@ -16,8 +16,33 @@
 
 /* Below 1200px landspace tablet */
 
-@media (max-width: 84em) {
+@media (max-width: 75em) {
   html {
     font-size: 56.25%;
+  }
+
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+
+  .grid {
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .testimonla-container {
+    padding: 9.6rem 3rem;
   }
 }
