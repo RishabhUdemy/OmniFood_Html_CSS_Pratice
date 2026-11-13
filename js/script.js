@@ -59,7 +59,7 @@ allLinks.forEach(function (link) {
 ///////////////////////////////////////////////////////////
 // Sticky navigation
 
-const sectionHeroEl = document.querySelector(".section-hero");
+const sectionHeroEl = document.querySelector(".hero-section");
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -78,7 +78,7 @@ const obs = new IntersectionObserver(
     // In the viewport
     root: null,
     threshold: 0,
-    rootMargin: "-80px",
+    rootMargin: "-100px",
   },
 );
 obs.observe(sectionHeroEl);
